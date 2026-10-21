@@ -111,7 +111,7 @@ and `gemm_cooperative_pipeline.exe`.
 To target a different GPU, override the arch without editing the makefile:
 
 ```bash
-make NVCCFLAGS="-O3 -std=c++17 -arch=sm_90"
+make NVCCFLAGS="-O3 -std=c++17 -arch=sm_80"
 ```
 
 `make clean` removes the binaries. Note that `-std=c++17` and `-arch=sm_80` are
